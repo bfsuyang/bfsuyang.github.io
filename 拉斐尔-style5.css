@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.导航栏{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    background-color: #1b492d;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.导航栏 a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* 不同导航链接的字体颜色 */
+.nav-link.人物影响 {
+    color: #e3af54; 
+  }  
+
+.导航栏 a:hover {
+    color: #e3af54;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(images/背景图片.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: #1b492d;
+    color: white;
+    text-align: center;
+    padding: 20px 0 25px;
+    line-height: 1.5
+}
+
+p {
+    text-indent: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 300px
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container img {
+    width: 400px; 
+    height: 100px;
+    margin-right: 20px;
+    padding: 10px 80px;
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container2 img {
+    width: 400px; 
+    height: 100px;
+    margin-right: 20px;
+    padding: 10px 80px;
+    margin-bottom:30px;
+}
